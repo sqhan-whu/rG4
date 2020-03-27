@@ -1,3 +1,7 @@
+###author: Han Shaoqing
+###Data: 20200327
+###Usage: python call_rG4.py seq.fa
+
 from os.path import basename
 from sys import argv
 import re
