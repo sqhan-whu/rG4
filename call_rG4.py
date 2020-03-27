@@ -102,12 +102,6 @@ def get_type(seq_name,seq_fa):
 			inds_40 +=1
 		else:
 			inds_all_not += 1
-	#print (f"G3L1-7: {inds_7}")
-	#print (f"Long loops: {inds_long}")
-	#print (f"Bulges: {inds_bulges}")
-	#print (f"2 quartet: {inds_GG_pure}")
-	#print (f"G >=40%: {inds_40}")
-	#print (f"Other: {inds_all_not}")
 
 	return len(inds_7), len(inds_long), len(inds_bulges), len(inds_GG_pure), inds_40, inds_all_not
 
